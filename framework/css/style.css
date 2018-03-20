@@ -1,0 +1,385 @@
+
+body {
+	margin: 0;
+	background-image:url(../../content/bg/background1.JPG);
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:bottom;
+}
+	
+/*The Following CSS Code is for the Home Page*/
+
+#Footer {
+	font-family:"Courier New", Courier, monospace;
+	font-size: 14px;
+	color: #FFF;
+	text-align: center;
+	position: fixed;
+	bottom:0;
+	width:100%;
+}
+
+#HomeTitle{
+	font-family:"Courier New", Courier, monospace;
+	font-size:20px;
+	color:#FFF;
+	text-align:center;
+	text-shadow: 1px 1px 5px #000;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#HomeTitleBig {
+	font-size:80px;
+}
+
+/**BOOK TICKETS**/
+#BookTicketsHeader {
+	color: #FFF;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 40px;
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	letter-spacing: 5px;
+}
+	
+
+#EventName{
+	color: #FCF;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 30px;
+	padding-left: 40px;
+	padding-top: 0px;
+	letter-spacing: 3px;
+	
+}
+
+#EventTitle{
+	color: #FCF;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 30px;
+	padding-left: 40px;
+	padding-top: 0px;
+	letter-spacing: 3px;
+	
+}
+	
+#EventDescription{
+	background-color: rgba(0,0,0,0.8);
+	margin-top: 10px;
+	position:absolute;
+	margin-left: 40px;
+	width: 450px;
+	height: 150px;
+	border: thin solid rgba(255,255,255,0.3);
+	border-radius:3px;
+}
+
+#EventDescriptionLeft{
+	font-family:"Courier New", Courier, monospace;
+	font-size:14px;
+	color:#FFF;
+	float:left;
+	margin-left:10px;
+	height:5px;
+}
+
+#EventDescriptionRight{
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	color:#FCF;
+	float: left;
+	margin-left: 10px;
+	font-style: italic;
+	height:5px;
+}
+
+#Form{
+	background-color: rgba(0,0,0,0.8);
+	margin-top: 170px;
+	position:absolute;
+	margin-left: 40px;
+	width: 440px;
+	height: 680px;
+	border: thin solid rgba(255,255,255,0.3);
+	border-radius:3px;
+	padding-left:10px;
+}
+
+#TicketFormLabel{
+	font-family:"Courier New", Courier, monospace;
+	font-size:14px;
+	color:#FFF;
+
+}
+
+#Form input{
+	width:90%;
+	border-radius:4px;
+	background-color: rgba(0,0,0,0.8);
+	font-family:"Courier New", Courier, monospace;
+	color:#FFF;
+	font-size:20px;
+    margin-top:0px;
+	border-color:#FFF;
+	-webkit-font-smoothing: antialiased !important;
+	}
+
+#FormRadio input{
+    width:10px;
+	border-radius:4px;
+	background-color: rgba(0,0,0,0.8);
+	font-family:"Courier New", Courier, monospace;
+	color:#FFF;
+	font-size:20px;
+    margin-top:20px;
+	border-color:#FFF;
+	-webkit-font-smoothing: antialiased !important;
+	}
+
+#CustomerDetails{
+	background-color: rgba(0,0,0,0.8);
+	margin-top: 10px;
+	position:absolute;
+	margin-left: 500px;
+	width: 450px;
+	height: 150px;
+	border: thin solid rgba(255,255,255,0.3);
+	border-radius:3px;
+}
+
+#TicketDetails{
+	background-color: rgba(0,0,0,0.8);
+	margin-top: 10px;
+	position:absolute;
+	margin-left: 960px;
+	width: 450px;
+	height: 150px;
+	border: thin solid rgba(255,255,255,0.3);
+	border-radius:3px;
+}
+
+#Form select{
+	width:200px;
+	background-color: rgba(0,0,0,0.8);
+	font-family:"Courier New", Courier, monospace;
+	color:#FFF;
+	font-size:20px;
+	-webkit-font-smoothing: antialiased !important;
+	}
+	
+.g-recaptcha {
+	margin-top:200px;
+	margin-left:40px;
+}
+
+#BookTicketsConfirm{
+	font-family:"Courier New", Courier, monospace;
+	color:#FFF;
+	font-size:40px;
+	-webkit-font-smoothing: antialiased !important;
+	
+}
+
+#BookTicketsConfirm button{
+	width:1370px;
+	height:50px;
+	border-radius:4px;
+	background-color: rgba(0,100,0,0.8);
+	font-family:"Courier New", Courier, monospace;
+	color:#FFF;
+	font-size:20px;
+    margin-top:180px;
+	margin-left:40px;
+	border-color:#FFF;
+	-webkit-font-smoothing: antialiased !important;
+	
+}
+
+#BookTicketsCancel button{
+	width:1370px;
+	height:50px;
+	border-radius:4px;
+	background-color: rgba(100,0,0,0.8);
+	font-family:"Courier New", Courier, monospace;
+	color:#FFF;
+	font-size:20px;
+    margin-top:10px;
+	margin-left:40px;
+	border-color:#FFF;
+	-webkit-font-smoothing: antialiased !important;
+
+	
+}
+
+/**BOOK THEATRE**/
+#BookTheatreTitle{
+	color: #FFF;
+	font-family: "Courier New", Courier, monospace;
+	padding-top: 50px;
+	font-size: 40px;
+	text-align: center;
+	letter-spacing: 3px;
+	-webkit-font-smoothing: antialiased !important;
+	}
+	
+	#BookTheatreSubTitle{
+	color: #FFF;
+	font-family: "Courier New", Courier, monospace;
+	padding-top: 5px;
+	font-size: 16px;
+	text-align: center;
+	letter-spacing: 1px;
+	-webkit-font-smoothing: antialiased !important;
+	font-weight: 500;
+}
+
+#BookTheatreDateSelectionForm{
+	text-align:center;
+	padding-top:30px;}
+
+#BookTheatreDateSelectionForm select{
+	width:200px;
+	background-color: rgba(0,0,0,0.8);
+	font-family:"Courier New", Courier, monospace;
+	color:#FFF;
+	font-size:20px;
+	-webkit-font-smoothing: antialiased !important;
+	}
+	
+#BookTheatreDateSelectionForm input{
+	width:500px;
+	border-radius:4px;
+	background-color: rgba(0,0,0,0.8);
+	font-family:"Courier New", Courier, monospace;
+	color:#FFF;
+	font-size:20px;
+    margin-top:20px;
+	border-color:#FFF;
+	-webkit-font-smoothing: antialiased !important;
+	}
+	
+	#demo{
+	color:#FFF;
+	font-size:30px;
+	padding-top:50px;
+	}
+	
+	.error{font-size:20px;
+	color:#F00;
+	font-family:"Courier New", Courier, monospace;}
+	
+	.valid{font-size:20px;
+	color:#0F0;
+	font-family:"Courier New", Courier, monospace;}
+
+
+#TimeInput input {
+	width:70px;
+	text-align:center;
+	border-radius:4px;
+	background-color: rgba(0,0,0,0.8);
+	font-family:"Courier New", Courier, monospace;
+	color:#FFF;
+	font-size:50px;
+    margin-top:20px;
+	border-color:#FFF;
+	-webkit-font-smoothing: antialiased !important;}
+	
+#TimeInput {
+	color:#FFF;
+	font-family:"Courier New", Courier, monospace;
+	font-size:50px;}
+	
+#BookTheatreConfirm{
+	font-family:"Courier New", Courier, monospace;
+	color:#FFF;
+	font-size:40px;
+	-webkit-font-smoothing: antialiased !important;
+	
+}
+
+#BookTheatreConfirm button{
+	width:500px;
+	border-radius:4px;
+	background-color: rgba(0,0,0,0.8);
+	font-family:"Courier New", Courier, monospace;
+	color:#FFF;
+	font-size:20px;
+    margin-top:20px;
+	border-color:#FFF;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+#BookTheatreSlot{
+	font-family:"Courier New", Courier, monospace;
+	color:#F00;
+	font-size:20px;
+	-webkit-font-smoothing: antialiased !important;
+	
+}
+
+#Green {
+	color:#0F0;
+}
+
+#Red {
+	color:#F00
+}
+
+#DetailInput input {
+	width:400px;
+	text-align:center;
+	border-radius:4px;
+	background-color: rgba(0,0,0,0.8);
+	font-family:"Courier New", Courier, monospace;
+	color:#FFF;
+	font-size:30px;
+    margin-top:20px;
+	border-color:#FFF;
+	-webkit-font-smoothing: antialiased !important;}
+	
+	#DetailInput textarea{
+	width:400px;
+	text-align:center;
+	border-radius:4px;
+	background-color: rgba(0,0,0,0.8);
+	font-family:"Courier New", Courier, monospace;
+	color:#FFF;
+	font-size:30px;
+    margin-top:20px;
+	border-color:#FFF;
+	-webkit-font-smoothing: antialiased !important;}
+	
+#DetailInput {
+		font-size:20px;
+		color:#FFF;
+		font-family:"Courier New", Courier, monospace;
+		-webkit-font-smoothing: antialiased !important;}
+		
+#DetailInput2 input {
+	width:10px;
+	text-align:left;
+	font-family:"Courier New", Courier, monospace;
+	color:#FFF;
+	font-size:30px;
+    margin-top:20px;
+	border-color:#FFF;
+	-webkit-font-smoothing: antialiased !important;}
+	
+	#SmallConf{
+	font-family:"Courier New", Courier, monospace;
+	color:#FFF;
+	font-size:20px;
+	-webkit-font-smoothing: antialiased !important;
+	
+}
+
+#Pink {
+	color:#FCF;
+	
+}
